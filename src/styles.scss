@@ -11,7 +11,7 @@ body{
         background: #222222;
         display: grid;
         grid-template-columns: 1fr 1fr;
-
+    
 
         &Contact{
             display: flex;
@@ -213,5 +213,160 @@ body{
                 }
             }
         }
+        &Secondary{
+            
+            background-color: #222222;
+            display: flex;
+            flex-direction: column;
+            height: 30vh;
+            padding: 10px;
+            
+    
+            &Title{
+                color: #ff6600;
+                display: flex;
+                font-family: sans-serif;
+                flex-direction: row;
+                padding-top: 30px;
+                font-weight: bold;
+                padding-left: 100px;
+
+                &::before{
+                    content: '';
+                    height: 18px;
+                    width: 6px;
+                    background-color: #ff6600;
+                    margin-right: 5px;
+                    
+                    
+
+                }
+            }
+
+            &Schedule{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                
+
+                &Event{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-left: 40px;
+
+                    &Details{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+
+                        &Time{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            color: #ffffff;
+                            
+                            &At{
+                                margin: 0;
+
+                            }
+                            &Convention{
+                                padding-left: 8px;
+                                padding-top: 5px;
+                            }   
+                        }
+                        &Venue{
+                            color: #ffffff;
+                            margin: 8px auto;
+                            
+                        }
+                        &Book{
+                            color: #ffffff;
+                            background-color: #ff6600;
+                            border-radius: 100px;
+                            border: none;
+                            cursor: pointer;
+                            font-weight: bold;
+                            padding: 5px 16px 5px 16px;
+                            width: fit-content;
+                        }
+                        &Sold{
+                            color: #ff6600;
+                            background-color: #222222;
+                            border: 1px solid #ff6600;
+                            padding: 5px;
+                            cursor: pointer;
+                            border-radius: 100px;
+                            font-weight: bold;
+                            padding: 5px 16px 5px 16px;
+                            width: fit-content;
+                            
+                        }
+                    }
+                    &Arrow{
+                        color: #ffffff;
+                        opacity: .10;
+                        margin: 10% 32px auto 32px;
+                        font-size: 18px;
+                    }
+                }
+
+            }
+        }
     }
+    .event{
+
+        &Upcoming{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+
+            &Content{
+               
+
+                &Details{
+                    justify-content: center;
+                    align-content: center;
+                    
+                    &Title{
+                        display: flex;
+                        flex-direction: row;
+                        text-transform: uppercase;
+                        color: #373737;
+                        font-family: sans-serif;
+                        padding-top: 10px;
+                        padding-left: 100px;
+                        
+
+                        &::before{
+                            background-color: #ff6600 ;
+                            content: '';
+                            width: 6px;
+                            height: 18px;
+                            margin-right: 5px;
+                        }
+
+                    }
+                    &Para{
+                        justify-content:left;
+                    }
+                }
+                &Action{
+                   
+                    padding: 10px 20px 10px 20px;
+                    width: fit-content;
+                    text-transform: uppercase;
+                    border-radius: 100px;
+                    border: 1px solid #ff6600;
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    cursor: pointer;
+
+                }
+            }
+        }
+    }    
 }
