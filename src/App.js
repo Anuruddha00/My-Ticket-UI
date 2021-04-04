@@ -1,23 +1,24 @@
+import React from 'react';
 import './styles.scss';
 
 function App() {
   return (
-   <div>
-      <nav>
-        <ul>
-          <li>+62274 889767</li>
-          <li>hello@myticket.com</li>
+   <div className='container'>
+      <nav className='navbar'>
+        <ul className='navbarContact'>
+          <li className='navbarContactNumber'>+62274 889767</li>
+          <li className='navbarContactEmail'>hello@myticket.com</li>
         </ul>
-        <ul>
-          <li>SIGN IN</li>
-          <li>SIGN UP</li>
+        <ul className='navbarAction'>
+          <li className='navbarActionSignIn'><button>sign in</button></li>
+          <li className='navbarActionSignUp'><button>SIGN UP</button></li>
         </ul>
       </nav>
-      <section>
-        <div>
-          <nav>
-            <img src='logo.png'/>
-            <ul>
+      <section className='landing'>
+        <div className='landingPrimary'>
+          <nav className='landingPrimaryNavbar'>
+            <img className='landingPrimaryNavbarImg' src='logo.png'/>
+            <ul className='landingPrimaryNavbarOptions'>
               <li>SCHEDULE</li>
               <li>CONCERTS</li>
               <li>SPORTS</li>
@@ -25,18 +26,18 @@ function App() {
               <li>THEATER</li>
               <li>GALERY</li>
               <li>BLOG</li>
-              <button>0</button>
+              <li>CART</li>
             </ul>
           </nav>
-          <div>
-            <h1>Make Your Dream Come True</h1>
-            <h3>Meat your favorite artist,sport teams and parties</h3>
-            <form>
+          <div className='landingPrimarySearch'>
+            <h1 className='landingPrimarySearchTitle'>Make Your Dream Come True</h1>
+            <h3 className='landingPrimarySearchDescription'>Meat your favorite artist,sport teams and parties</h3>
+            <form className='landingPrimarySearchInput'>
               <input type='text' placeholder='Search Artist, Teams, or Venue'/>
             </form>
-            <div>
-              <h3>San Francisco, CA</h3>
-              <p>Change Location</p>
+            <div className='landingPrimarySearchFooter'>
+              <h3 className='landingPrimarySearchFooterLocation'>San Francisco, CA</h3>
+              <p className='landingPrimarySearchFooterAction'>Change Location</p>
             </div>
           </div>
         </div>
@@ -60,7 +61,7 @@ function App() {
         </div>
       </section>
       <section>
-        
+
       </section>
    </div>
   );
