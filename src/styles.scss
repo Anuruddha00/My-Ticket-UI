@@ -320,7 +320,7 @@ body{
                         color: #373737;
                         font-family: sans-serif;
                         padding-top: 20px;
-                        padding-left: 100px;  
+                        padding-left: 21%;  
 
                         &::before{
                             background-color: #ff6600 ;
@@ -334,6 +334,7 @@ body{
                         margin-left: 100px;
                         color: #6f6f6f;
                         justify-content: center;
+                        padding-left: 80px;
                     }
                 }
                 &Action{ 
@@ -349,8 +350,8 @@ body{
                 }   
             }
             &AllEvents{
-                margin-left: 100px;
-                margin-right: 100px;
+                margin-left: 13%;
+                margin-right: 10%;
                 margin-top: 20px;
                 justify-content: center;
                 align-items: center;
@@ -436,8 +437,9 @@ body{
                             width: fit-content;
                             height: fit-content;
                             font-weight: bold;
-                            margin-left: 10px;
                             align-self: center;
+                            position: absolute;
+                            right: 30px;
 
                         }
                     }
