@@ -229,7 +229,8 @@ body{
                 flex-direction: row;
                 padding-top: 30px;
                 font-weight: bold;
-                padding-left: 100px;
+                padding-left: 13%;
+                
 
                 &::before{
                     content: '';
@@ -246,13 +247,14 @@ body{
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-                
+                margin-left: 8%;
+                margin-right: 10%;
 
                 &Event{
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
-                    margin-left: 40px;
+                    margin-left: 6px;
 
                     &Details{
                         display: flex;
@@ -306,7 +308,7 @@ body{
                     &Arrow{
                         color: #ffffff;
                         opacity: .10;
-                        margin: 10% 32px auto 32px;
+                        margin: 10% 25px auto 25px;
                         font-size: 18px;
                     }
                 }
@@ -320,6 +322,8 @@ body{
          
             justify-content: center;
             align-content: center;
+            margin-left: 6%;
+            
 
             &Content{
                 display: grid;
@@ -479,11 +483,13 @@ body{
                  
 
                     &Title{
-                        padding-left: 100px;
+                        
                         text-transform: uppercase;
                         font-family: sans-serif;
                         display: flex;
                         flex-direction: row;
+                        color: #373737;
+                        margin-left: 13%;
 
                         &::before{
                             background-color: #ff6600;
@@ -495,12 +501,12 @@ body{
                     }
                     &List{
                         display: grid;
-                        grid-template-columns: auto auto auto;
+                        grid-template-columns: 1fr 1fr 1fr;
                         grid-gap: 20px;
-                        padding-left: 100px;
-                        padding-right: 100px;
+                        padding-left: 15%;
+                        padding-right: 15%;
                         align-items: center;
-
+                        
                         
                         
                         &Concert{
@@ -508,18 +514,17 @@ body{
                             background: linear-gradient(to right, #2ecc71 , #1bbc9b );
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px ;
-                            padding-bottom: 50px;
-
-                           
+                            padding-top: 60px ;
+                            padding-bottom: 60px;
+                    
                         }
                         &Sports{
                             background:#6f6f6f;
                             background: linear-gradient(to right, #c0392b , #d24d57 );
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px;
-                            padding-bottom: 50px;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
                             
   
                         }
@@ -528,8 +533,8 @@ body{
                             background:  linear-gradient(to right, #663399 , #9b59b6 );
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px;
-                            padding-bottom: 50px;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
                             
                         }
                         &Parties{
@@ -537,8 +542,8 @@ body{
                             background: linear-gradient(to right, #d35400 , #f89406); 
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px;
-                            padding-bottom: 50px;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
                            
                         }
                         &Communities{
@@ -546,8 +551,8 @@ body{
                             background: linear-gradient(to right, #446cb3 , #59abe3);
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px;
-                            padding-bottom: 50px;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
                             
                         }
                         &Classes{
@@ -555,8 +560,8 @@ body{
                             background: linear-gradient(to right, #db0a5b, #d2527f ) ;
                             color: #ffffff;
                             text-align: center;
-                            padding-top: 50px;
-                            padding-bottom: 50px;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
                             
                         }
                     }
@@ -611,8 +616,9 @@ body{
                     display: flex;
                     flex-direction: row;
                     font-family: sans-serif;
-                    padding-left: 100px;
+                    
                     padding-top: 20px;
+                    margin-left: 10%;
 
                     &::before{
                         background-color: #ff6600;
