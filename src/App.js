@@ -293,7 +293,7 @@ function App() {
               <p className='latestNewsDescriptionContentTime'>6 hours ago</p>
               <p className='latestNewsDescriptionContentFrom'>By Admin</p>
             </div>
-            <p className='latestNewsDescriptionPara'>fsfsfssfsfsfsfsfcvwfssdfwwefqffaf</p>
+            <p className='latestNewsDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
           </div>
           <div className='latestNewsNumbers'>
             <li className='latestNewsNumbersOne'>1</li>
@@ -317,7 +317,7 @@ function App() {
             <button className='latestTweetsContentActionFollow'>Follow</button>
           </div>
           <div className='latestTweetsContentDescription'>
-            <p className='latestTweetsContentDescriptionPara'>qeqadsqddadadasdasdasdddadasd</p>
+            <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
             <p className='latestTweetsContentDescriptionTime'>17 min</p>
           </div>
           </div> 
