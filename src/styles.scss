@@ -238,8 +238,6 @@ body{
                     background-color: #ff6600;
                     margin-right: 5px;
                     
-                    
-
                 }
             }
 
@@ -319,25 +317,28 @@ body{
     .event{
 
         &Upcoming{
-            display: flex;
-            flex-direction: column;
+         
             justify-content: center;
             align-content: center;
 
             &Content{
-               
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-gap: 100px;
 
                 &Details{
                     justify-content: center;
                     align-content: center;
-                    
+                    display: flex;
+                    flex-direction: column;
+
                     &Title{
                         display: flex;
                         flex-direction: row;
                         text-transform: uppercase;
                         color: #373737;
                         font-family: sans-serif;
-                        padding-top: 10px;
+                        padding-top: 20px;
                         padding-left: 100px;
                         
 
@@ -351,22 +352,365 @@ body{
 
                     }
                     &Para{
-                        justify-content:left;
+                        margin-left: 100px;
+                        color: #6f6f6f;
+                        justify-content: center;
                     }
+                   
                 }
                 &Action{
-                   
-                    padding: 10px 20px 10px 20px;
+                    
                     width: fit-content;
+                    height: 30px;
                     text-transform: uppercase;
                     border-radius: 100px;
                     border: 1px solid #ff6600;
                     color: #ff6600;
                     background-color: #ffffff;
                     cursor: pointer;
+                    margin-top: 100px;
+                    
+                }
+               
+            }
+            &AllEvents{
+               
+                &Card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    background:linear-gradient(to right , #6f6f6f,#242323, #6f6f6f);
+                    background: linear-gradient(to top, #2e2d2d , #6f6f6f );
+                    height: 35vh;
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    margin-top: 20px;
+                    
+                    &Image{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid #373737;
 
+                    }
+                    &Calender{
+                         
+                        background-color: #242424;
+                        color: #ffffff;
+                        padding: 8px 12px 8px 12px;
+                        height: fit-content;    
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        overflow: visible;
+                       
+                        &Date{
+                            margin: 0;
+                           
+                        }
+                        &Month{
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        &Year{
+                            margin: 0;
+                        }
+                    }
+                    
+                    &Content{
+
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        margin-top: 80px;
+
+                        &Details{
+                            display: flex;
+                            flex-direction: column;
+                            
+
+                            &Title{
+                                color: #ffffff;
+                                // margin-right: 50px;
+                                
+                            }
+                            &Para{
+                                color: #ffffff;
+                                
+                            }
+                        }
+                        &Action{
+                            color: #ffffff;
+                            background-color: #ff6600;
+                            border-radius: 100px;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            padding: 5px;
+                            border: none;
+                            width: fit-content;
+                            height: fit-content;
+                            font-weight: bold;
+                            margin-top: 50px;
+                            margin-left: 30px;
+                        }
+                    }
                 }
             }
         }
+        &Categories{
+            // display: grid;
+            // grid-template-columns: repeat(3,1fr);
+            // justify-content: space-around;
+            justify-content: center;
+            margin-top: 20px;
+            
+
+            &Content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+
+                &Details{
+                    display: flex;
+                    flex-direction: row;
+                 
+
+                    &Title{
+                        padding-left: 100px;
+                        text-transform: uppercase;
+                        font-family: sans-serif;
+                        display: flex;
+                        flex-direction: row;
+
+                        &::before{
+                            background-color: #ff6600;
+                            width: 6px;
+                            height: 18px;
+                            content: '';
+                            margin-right: 5px;
+                        }
+                    }
+                    &List{
+                        display: grid;
+                        grid-template-columns: auto auto auto;
+                        grid-gap: 20px;
+                        padding-left: 100px;
+                        padding-right: 100px;
+                        align-items: center;
+
+                        
+                        
+                        &Concert{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #2ecc71 , #1bbc9b );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px ;
+                            padding-bottom: 50px;
+
+                           
+                        }
+                        &Sports{
+                            background:#6f6f6f;
+                            background: linear-gradient(to right, #c0392b , #d24d57 );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                            
+  
+                        }
+                        &Theater{
+                            background: #6f6f6f;
+                            background:  linear-gradient(to right, #663399 , #9b59b6 );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                            
+                        }
+                        &Parties{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #d35400 , #f89406); 
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                           
+                        }
+                        &Communities{
+                            background:#6f6f6f ;
+                            background: linear-gradient(to right, #446cb3 , #59abe3);
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                            
+                        }
+                        &Classes{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #db0a5b, #d2527f ) ;
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 50px;
+                            padding-bottom: 50px;
+                            
+                        }
+                    }
+                }   
+            }
+        }
     }    
+    .number{
+
+        background-color: #242424;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &Card{
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &Line{
+                background-color: #ffffff;
+                content: '';
+                width: 25px;
+                height: 2px;
+                
+            }
+            &Title{
+                text-transform: uppercase;
+            
+            }
+        }
+    }
+    .content{
+
+        &Recent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &Content{
+                
+                &Title{
+                    text-transform: uppercase;
+                    color:  #373737;
+                    padding-left: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    font-family: sans-serif;
+                    padding-left: 100px;
+                    padding-top: 20px;
+
+                    &::before{
+                        background-color: #ff6600;
+                        content: '';
+                        width: 6px;
+                        height: 22px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &All{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+
+                &Videos{
+                    display: flex;
+                    flex-direction: column;
+                    
+
+                    &Card{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+
+                        &Description{
+                            display: flex;
+                            flex-direction: column;
+
+                            &Para{
+                                color:#242424;
+
+                            }
+                            &Line{
+                                background-color: #ff6600;
+                                width: 28px;
+                                height: 2px;
+                                content: '';
+                            }
+                        }
+                        &Thumb{
+                            background-color: #6f6f6f;
+                            content: '';
+                            width: 100px;
+                            height: 100px;
+                        
+                        }
+                        &Time{
+                            position: relative  ;
+                            
+                        }
+                    }
+                }    
+            }
+        }
+        &CallToAction{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            background: linear-gradient(to right,#ec6003, #f89b18);
+            justify-content: center;
+            align-items: center;
+            margin-left: 18%;
+            margin-right: 18%;
+            margin-top: 50px;
+            padding: 10px;
+            
+            &Details{
+                color: #ffffff;
+                align-items: center;
+                align-content: center;
+                margin-left: 30px;
+
+                &Title{
+                    
+                }
+                &Para{
+                    
+                }
+            }
+
+            &Action{
+                background-color: #ffffff;
+                color: #ff6600 ;
+                font-weight: bold;
+                border-radius: 3px;
+                border: none;
+                padding: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-left: 40%;
+                text-transform: uppercase;
+                cursor: pointer;
+                width: fit-content;
+            }
+
+        }
+        
+    }
 }

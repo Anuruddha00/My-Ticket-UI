@@ -108,7 +108,7 @@ function App() {
 
           <div className='eventUpcomingAllEvents'>
             <div className='eventUpcomingAllEventsCard'>
-              <img className='eventUpcomingAllEventsCardImage'/>
+              <img className='eventUpcomingAllEventsCardImage'  />
                 <div className='eventUpcomingAllEventsCardCalender'>
                   <h1 className='eventUpcomingAllEventsCardCalenderDate'>25</h1>
                   <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
@@ -121,6 +121,35 @@ function App() {
                 </div>    
                 <button className='eventUpcomingAllEventsCardContentAction'>get ticket</button> 
               </div>
+
+              <img className='eventUpcomingAllEventsCardImage'/>
+                <div className='eventUpcomingAllEventsCardCalender'>
+                  <h1 className='eventUpcomingAllEventsCardCalenderDate'>26</h1>
+                  <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
+                  <p className='eventUpcomingAllEventsCardCalenderYear'>2016</p>
+                </div>
+              <div className='eventUpcomingAllEventsCardContent'>
+                <div className='eventUpcomingAllEventsCardContentDetails'>
+                  <h3 className='eventUpcomingAllEventsCardContentDetailsTitle'>Klal Kanjeng Orchestra</h3>
+                  <p className='eventUpcomingAllEventsCardContentDetailsPara'>San Francisco</p>
+                </div>    
+                <button className='eventUpcomingAllEventsCardContentAction'>get ticket</button> 
+              </div>
+
+              <img className='eventUpcomingAllEventsCardImage'/>
+                <div className='eventUpcomingAllEventsCardCalender'>
+                  <h1 className='eventUpcomingAllEventsCardCalenderDate'>27</h1>
+                  <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
+                  <p className='eventUpcomingAllEventsCardCalenderYear'>2016</p>
+                </div>
+              <div className='eventUpcomingAllEventsCardContent'>
+                <div className='eventUpcomingAllEventsCardContentDetails'>
+                  <h3 className='eventUpcomingAllEventsCardContentDetailsTitle'>Envato Author SF Meatup</h3>
+                  <p className='eventUpcomingAllEventsCardContentDetailsPara'>San Francisco</p>
+                </div>    
+                <button className='eventUpcomingAllEventsCardContentAction'>get ticket</button> 
+              </div>
+
             </div>
           </div>
         </div>
@@ -128,29 +157,27 @@ function App() {
         <div className='eventCategories'>
           <div className='eventCategoriesContent'>
             <div className='eventCategoriesContentDetails'>
-              <h2 className='eventCategoriesContentDetailsTitle'>event by categories</h2>
+              <h3 className='eventCategoriesContentDetailsTitle'>event by categories</h3>
             </div>
               <div className='eventCategoriesContentDetailsList'>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>concerts</h2>
+                <div className='eventCategoriesContentDetailsListConcert'>
+                  <h2 className='eventCategoriesContentDetailsListConcertTitle'>concerts</h2>
                 </div>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>sports</h2>
+                <div className='eventCategoriesContentDetailsListSports'>
+                  <h2 className='eventCategoriesContentDetailsListSportsTitle'>sports</h2>
                 </div>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>theater</h2>
+                <div className='eventCategoriesContentDetailsListTheater'>
+                  <h2 className='eventCategoriesContentDetailsListTheaterTitle'>theater</h2>
                 </div>
-                <div className='eventCategoriesContentDetailsList'>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>parties</h2>
+                <div className='eventCategoriesContentDetailsListParties'>
+                  <h2 className='eventCategoriesContentDetailsListPartiesTitle'>parties</h2>
                 </div>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>communities</h2>
+                <div className='eventCategoriesContentDetailsListCommunities'>
+                  <h2 className='eventCategoriesContentDetailsListCommunitiesTitle'>communities</h2>
                 </div>
-                <div className='eventCategoriesContentDetailsListCard'>
-                  <h2 className='eventCategoriesContentDetailsListCardTitle'>classes</h2>
+                <div className='eventCategoriesContentDetailsListClasses'>
+                  <h2 className='eventCategoriesContentDetailsListClassesTitle'>classes</h2>
                 </div>
-              </div>
            </div>
           </div>
         </div>
@@ -179,57 +206,64 @@ function App() {
           <div className='contentRecentContent'>
             <h2 className='contentRecentContentTitle'>recent videos</h2>
           </div>
-        <div className='contentRecentVideos'>
-          <div className='contentRecentVideosCard'>
-            <img className='contentRecentVideosCardThumb'/>
-            <div className='contentRecentVideosCardPlayer'>
-              <img className='contentRecentVideosCardPlayerThumb'/>
-              <span className='contentRecentVideosCardPlayerTime'>2:33</span>
+        <div className='contentRecentAll'>  
+        <div className='contentRecentAllVideos'>
+          <div className='contentRecentAllVideosCard'>
+            <img className='contentRecentAllVideosCardThumb'/>
+            <div className='contentRecentAllVideosCardPlayer'>
+              <img className='contentRecentAllVideosCardPlayerThumb'/>
+              <span className='contentRecentAllVideosCardPlayerTime'>2:33</span>
             </div>
           </div>
-          <div className='contentRecentVideosCardDescription'>
-            <p className='contentRecentVideosCardDescriptionPara'>Envato Author Community Fun Hiking at Semeru Mountaint</p>
+          <div className='contentRecentAllVideosCardDescription'>
+            <p className='contentRecentAllVideosCardDescriptionPara'>Envato Author Community Fun Hiking at Semeru Mountaint</p>
+            <span className='contentRecentAllVideosCardDescriptionLine'></span>
+          </div>
+        </div>
+      
+
+        <div className='contentRecentAllVideos'>
+          <div className='contentRecentAllVideosCard'>
+            <img className='contentRecentAllVideosCardThumb'/>
+            <div className='contentRecentAllVideosCardPlayer'>
+              <img className='contentRecentAllVideosCardPlayerThumb'/>
+              <span className='contentRecentAllVideosCardPlayerTime'>2:33</span>
+            </div>
+          </div>
+          <div className='contentRecentAllVideosCardDescription'>
+            <p className='contentRecentAllVideosCardDescriptionPara'>Nike Urban Running Chalangge with Kobe 2016</p>
+            <span className='contentRecentAllVideosCardDescriptionLine'></span>
           </div>
         </div>
 
-        <div className='contentRecentVideos'>
-          <div className='contentRecentVideosCard'>
-            <img className='contentRecentVideosCardThumb'/>
-            <div className='contentRecentVideosCardPlayer'>
-              <img className='contentRecentVideosCardPlayerThumb'/>
-              <span className='contentRecentVideosCardPlayerTime'>2:33</span>
+        <div className='contentRecentAllVideos'>
+          <div className='contentRecentAllVideosCard'>
+            <img className='contentRecentAllVideosCardThumb'/>
+            <div className='contentRecentAllVideosCardPlayer'>
+              <img className='contentRecentAllVideosCardPlayerThumb'/>
+              <span className='contentRecentAllVideosCardPlayerTime'>6:45</span>
             </div>
           </div>
-          <div className='contentRecentVideosCardDescription'>
-            <p className='contentRecentVideosCardDescriptionPara'>Nike Urban Running Chalangge with Kobe 2016</p>
+          <div className='contentRecentAllVideosCardDescription'>
+            <p className='contentRecentAllVideosCardDescriptionPara'>Entrepreneurial Think Thank: Shifting the Education Paradigm</p>
+            <span className='contentRecentAllVideosCardDescriptionLine'></span>
           </div>
         </div>
 
-        <div className='contentRecentVideos'>
-          <div className='contentRecentVideosCard'>
-            <img className='contentRecentVideosCardThumb'/>
-            <div className='contentRecentVideosCardPlayer'>
-              <img className='contentRecentVideosCardPlayerThumb'/>
-              <span className='contentRecentVideosCardPlayerTime'>6:45</span>
+        <div className='contentRecentAllVideos'>
+          <div className='contentRecentAllVideosCard'>
+            <img className='contentRecentAllVideosCardThumb'/>
+            <div className='contentRecentAllVideosCardPlayer'>
+              <img className='contentRecentAllVideosCardPlayerThumb'/>
+              <span className='contentRecentAllVideosCardPlayerTime'>6:45</span>
             </div>
           </div>
-          <div className='contentRecentVideosCardDescription'>
-            <p className='contentRecentVideosCardDescriptionPara'>Entrepreneurial Think Thank: Shifting the Education Paradigm</p>
+          <div className='contentRecentAllVideosCardDescription'>
+            <p className='contentRecentAllVideosCardDescriptionPara'>Southeast Asia Weekend Festival 2016</p>
+            <span className='contentRecentAllVideosCardDescriptionLine'></span>
           </div>
         </div>
-
-        <div className='contentRecentVideos'>
-          <div className='contentRecentVideosCard'>
-            <img className='contentRecentVideosCardThumb'/>
-            <div className='contentRecentVideosCardPlayer'>
-              <img className='contentRecentVideosCardPlayerThumb'/>
-              <span className='contentRecentVideosCardPlayerTime'>6:45</span>
-            </div>
-          </div>
-          <div className='contentRecentVideosCardDescription'>
-            <p className='contentRecentVideosCardDescriptionPara'>Southeast Asia Weekend Festival 2016</p>
-          </div>
-        </div>
+      </div>
       </div>
       <div className='contentCallToAction'>
         <div className='contentCallToActionDetails'>
