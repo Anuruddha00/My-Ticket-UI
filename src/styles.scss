@@ -378,7 +378,12 @@ body{
                
             }
             &AllEvents{
-               
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 20px;
+                justify-content: center;
+                align-items: center;
+           
                 &Card{
                     display: flex;
                     flex-direction: row;
@@ -386,10 +391,8 @@ body{
                     background:linear-gradient(to right , #6f6f6f,#242323, #6f6f6f);
                     background: linear-gradient(to top, #2e2d2d , #6f6f6f );
                     height: 35vh;
-                    margin-left: 100px;
-                    margin-right: 100px;
-                    margin-top: 20px;
                     
+
                     &Image{
                         
                         display: flex;
@@ -410,6 +413,7 @@ body{
                         flex-direction: column;
                         text-align: center;
                         overflow: visible;
+                        
                        
                         &Date{
                             margin: 0;
@@ -427,22 +431,23 @@ body{
                     &Content{
 
                         display: grid;
-                        grid-template-columns: 1fr 1fr;
+                        grid-template-columns: 2fr 1fr;
                         margin-top: 80px;
+                        margin-left: -80px;
 
                         &Details{
                             display: flex;
                             flex-direction: column;
-                            
+                            margin-top: 30px;
 
                             &Title{
                                 color: #ffffff;
-                                // margin-right: 50px;
+                               
                                 
                             }
                             &Para{
                                 color: #ffffff;
-                                
+                                margin: 0;
                             }
                         }
                         &Action{
@@ -456,8 +461,8 @@ body{
                             width: fit-content;
                             height: fit-content;
                             font-weight: bold;
-                            margin-top: 50px;
-                            margin-left: 30px;
+                            margin-top: 60px;
+                            margin-left: 10px;
                         }
                     }
                 }
