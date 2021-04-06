@@ -12,7 +12,6 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
     
-
         &Contact{
             display: flex;
             flex-direction: row;
@@ -37,7 +36,6 @@ body{
                     width: 28px;
                     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='0.564cm' height='0.564cm'%3e%3cpath fill-rule='evenodd' fill='rgb(255, 102, 0)' d='M12.858,15.996 C12.192,15.996 11.388,15.829 10.504,15.496 C8.565,14.765 6.455,13.321 4.564,11.431 C2.672,9.539 1.227,7.431 0.496,5.493 C-0.169,3.731 -0.171,2.285 0.492,1.623 C0.587,1.528 0.684,1.426 0.784,1.320 C1.389,0.685 2.072,-0.030 2.977,0.002 C3.601,0.028 4.205,0.415 4.824,1.185 C6.654,3.459 5.829,4.269 4.874,5.208 L4.706,5.376 C4.550,5.531 4.255,6.254 6.999,8.996 C7.895,9.892 8.659,10.547 9.269,10.943 C9.653,11.193 10.341,11.571 10.623,11.289 L10.792,11.118 C11.731,10.166 12.542,9.344 14.815,11.171 C15.585,11.790 15.972,12.393 15.998,13.018 C16.035,13.922 15.314,14.607 14.678,15.210 C14.573,15.310 14.471,15.407 14.376,15.502 C14.047,15.831 13.521,15.996 12.858,15.996 ZM2.912,0.539 C2.269,0.539 1.688,1.150 1.174,1.691 C1.071,1.800 0.971,1.905 0.872,2.004 C0.379,2.496 0.429,3.792 0.999,5.304 C1.705,7.171 3.106,9.212 4.945,11.051 C6.784,12.888 8.825,14.288 10.694,14.993 C12.208,15.564 13.503,15.612 13.996,15.120 C14.094,15.022 14.200,14.922 14.308,14.819 C14.861,14.294 15.488,13.699 15.461,13.039 C15.442,12.585 15.112,12.098 14.479,11.589 C12.584,10.067 12.055,10.604 11.176,11.494 L11.004,11.668 C10.584,12.088 9.902,11.995 8.976,11.394 C8.334,10.976 7.541,10.297 6.619,9.376 C4.342,7.100 3.613,5.707 4.326,4.993 L4.498,4.824 C5.391,3.946 5.929,3.416 4.406,1.522 C3.896,0.889 3.408,0.559 2.954,0.539 C2.940,0.539 2.926,0.539 2.912,0.539 Z'/%3e%3c/svg%3e");
                 }
-
             }
             &Email{
                 display: flex;
@@ -55,16 +53,12 @@ body{
                     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='0.706cm' height='0.494cm'%3e%3cpath fill-rule='evenodd' fill='rgb(255, 102, 0)' d='M18.388,14.001 L1.612,14.001 C0.723,14.001 -0.000,13.289 -0.000,12.413 L-0.000,1.586 C-0.000,0.711 0.723,-0.001 1.612,-0.001 L18.388,-0.001 C19.277,-0.001 20.000,0.711 20.000,1.586 L20.000,12.413 C20.000,13.289 19.277,14.001 18.388,14.001 ZM0.645,12.413 C0.645,12.939 1.079,13.366 1.612,13.366 L18.388,13.366 C18.921,13.366 19.355,12.939 19.355,12.413 L19.355,1.586 C19.355,1.457 19.328,1.335 19.280,1.222 L12.722,6.854 L16.414,10.265 C16.544,10.384 16.551,10.586 16.429,10.713 C16.365,10.780 16.280,10.814 16.193,10.814 C16.114,10.814 16.035,10.785 15.973,10.727 L12.262,7.299 C12.251,7.289 12.254,7.274 12.245,7.263 L11.184,8.174 C10.857,8.455 10.429,8.595 10.000,8.595 C9.571,8.595 9.142,8.455 8.816,8.175 L7.755,7.264 C7.746,7.274 7.749,7.289 7.739,7.299 L4.027,10.727 C3.965,10.785 3.885,10.814 3.806,10.814 C3.720,10.814 3.635,10.780 3.571,10.713 C3.449,10.586 3.455,10.384 3.585,10.265 L7.278,6.854 L0.720,1.220 C0.672,1.333 0.645,1.457 0.645,1.586 L0.645,12.413 ZM1.612,0.634 C1.447,0.634 1.299,0.686 1.163,0.758 L9.240,7.696 C9.652,8.050 10.348,8.050 10.760,7.696 L18.839,0.758 C18.702,0.686 18.554,0.634 18.388,0.634 L1.612,0.634 Z'/%3e%3c/svg%3e");
                 }
             }
-            
-
         }
-        
         &Action{
             display: flex;
             flex-direction: row;
             list-style-type: none;
             justify-content: flex-end;
-            
             justify-content: center;
             align-items: center;
 
@@ -73,7 +67,6 @@ body{
                 background: transparent;
                 text-transform: uppercase;
             }
-
             &SignIn{
                 height: 18px;
                 margin-left: 16px;
@@ -90,7 +83,6 @@ body{
                 }
             }   
         }
-
     }
     .landing{
 
@@ -120,8 +112,7 @@ body{
                     display: flex;
                     flex-direction: row;
                     list-style-type: none;
-                    justify-content: center;
-                   
+                    justify-content: center; 
 
                     li{
                         padding: 10px;
@@ -134,12 +125,9 @@ body{
                             color: #ffa824;
                             padding: 10px;
                             border-radius: 100px;
-                        }
-                        
+                        }    
                     }
-
                 }
-
             }
             &Search{
                 display: flex;
@@ -176,7 +164,6 @@ body{
                         &::placeholder{
                             color: #ffffff5b; 
                         }
-
                     }
                 }
                 &Footer{
@@ -214,13 +201,11 @@ body{
             }
         }
         &Secondary{
-            
             background-color: #222222;
             display: flex;
             flex-direction: column;
             height: 30vh;
             padding: 10px;
-            
     
             &Title{
                 color: #ff6600;
@@ -231,17 +216,14 @@ body{
                 font-weight: bold;
                 padding-left: 13%;
                 
-
                 &::before{
                     content: '';
                     height: 18px;
                     width: 6px;
                     background-color: #ff6600;
-                    margin-right: 5px;
-                    
+                    margin-right: 5px;    
                 }
             }
-
             &Schedule{
                 margin-top: 10px;
                 display: flex;
@@ -260,7 +242,6 @@ body{
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
-                        
 
                         &Time{
                             display: flex;
@@ -312,18 +293,14 @@ body{
                         font-size: 18px;
                     }
                 }
-
             }
         }
     }
     .event{
 
         &Upcoming{
-         
             justify-content: center;
             align-content: center;
-            // margin-left: 6%;
-            
 
             &Content{
                 display: grid;
@@ -343,8 +320,7 @@ body{
                         color: #373737;
                         font-family: sans-serif;
                         padding-top: 20px;
-                        padding-left: 100px;
-                        
+                        padding-left: 100px;  
 
                         &::before{
                             background-color: #ff6600 ;
@@ -353,17 +329,14 @@ body{
                             height: 18px;
                             margin-right: 5px;
                         }
-
                     }
                     &Para{
                         margin-left: 100px;
                         color: #6f6f6f;
                         justify-content: center;
                     }
-                   
                 }
-                &Action{
-                    
+                &Action{ 
                     width: fit-content;
                     height: 30px;
                     text-transform: uppercase;
@@ -372,10 +345,8 @@ body{
                     color: #ff6600;
                     background-color: #ffffff;
                     cursor: pointer;
-                    margin-top: 100px;
-                    
-                }
-               
+                    margin-top: 100px;    
+                }   
             }
             &AllEvents{
                 margin-left: 100px;
@@ -409,7 +380,6 @@ body{
 
                     }
                     &Calender{
-                         
                         background-color: #242424;
                         color: #ffffff;
                         padding: 8px 12px 8px 12px;
@@ -418,15 +388,11 @@ body{
                         display: flex;
                         flex-direction: column;
                         text-align: center;
-                        overflow: visible;
-
                         position: absolute;
                         left: 0;
-                        
-                       
+                    
                         &Date{
-                            margin: 0;
-                           
+                            margin: 0;  
                         }
                         &Month{
                             margin: 0;
@@ -436,12 +402,9 @@ body{
                             margin: 0;
                         }
                     }
-                    
                     &Content{
                         display: grid;
                         grid-template-columns: 2fr 1fr;
-                        // margin-top: 80px;
-                        // margin-left: -80px;
                         position: absolute;
                         bottom: 16px;
                         left: 16px;
@@ -451,8 +414,7 @@ body{
                         &Details{
                             display: flex;
                             flex-direction: column;
-                            // margin-top: 30px;
-
+                        
                             &Title{
                                 color: #ffffff;
                                
@@ -474,7 +436,6 @@ body{
                             width: fit-content;
                             height: fit-content;
                             font-weight: bold;
-                            // margin-top: 60px;
                             margin-left: 10px;
                             align-self: center;
 
@@ -484,26 +445,19 @@ body{
             }
         }
         &Categories{
-            // display: grid;
-            // grid-template-columns: repeat(3,1fr);
-            // justify-content: space-around;
             justify-content: center;
             margin-top: 20px;
-            
-
+        
             &Content{
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                
-
+            
                 &Details{
                     display: flex;
                     flex-direction: row;
                  
-
-                    &Title{
-                        
+                    &Title{  
                         text-transform: uppercase;
                         font-family: sans-serif;
                         display: flex;
@@ -526,9 +480,7 @@ body{
                         padding-left: 15%;
                         padding-right: 15%;
                         align-items: center;
-                        
-                        
-                        
+                          
                         &Concert{
                             background: #6f6f6f;
                             background: linear-gradient(to right, #2ecc71 , #1bbc9b );
@@ -545,8 +497,6 @@ body{
                             text-align: center;
                             padding-top: 60px;
                             padding-bottom: 60px;
-                            
-  
                         }
                         &Theater{
                             background: #6f6f6f;
@@ -563,8 +513,7 @@ body{
                             color: #ffffff;
                             text-align: center;
                             padding-top: 60px;
-                            padding-bottom: 60px;
-                           
+                            padding-bottom: 60px;  
                         }
                         &Communities{
                             background:#6f6f6f ;
@@ -572,8 +521,7 @@ body{
                             color: #ffffff;
                             text-align: center;
                             padding-top: 60px;
-                            padding-bottom: 60px;
-                            
+                            padding-bottom: 60px;    
                         }
                         &Classes{
                             background: #6f6f6f;
@@ -581,8 +529,7 @@ body{
                             color: #ffffff;
                             text-align: center;
                             padding-top: 60px;
-                            padding-bottom: 60px;
-                            
+                            padding-bottom: 60px;    
                         }
                     }
                 }   
@@ -590,7 +537,6 @@ body{
         }
     }    
     .number{
-
         background-color: #242424;
         margin-left: 50px;
         margin-right: 50px;
@@ -611,12 +557,10 @@ body{
                 background-color: #ffffff;
                 content: '';
                 width: 25px;
-                height: 2px;
-                
+                height: 2px;    
             }
             &Title{
-                text-transform: uppercase;
-            
+                text-transform: uppercase;     
             }
         }
     }
@@ -636,7 +580,6 @@ body{
                     display: flex;
                     flex-direction: row;
                     font-family: sans-serif;
-                    
                     padding-top: 20px;
                     margin-left: 10%;
 
@@ -659,8 +602,7 @@ body{
                 &Videos{
                     display: flex;
                     flex-direction: column;
-                    
-
+                
                     &Card{
                         display: flex;
                         flex-direction: column;
