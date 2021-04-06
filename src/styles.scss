@@ -11,6 +11,7 @@ body{
         background: #222222;
         display: grid;
         grid-template-columns: 1fr 1fr;
+    
 
         &Contact{
             display: flex;
@@ -53,7 +54,8 @@ body{
                     width: 28px;
                     background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='0.706cm' height='0.494cm'%3e%3cpath fill-rule='evenodd' fill='rgb(255, 102, 0)' d='M18.388,14.001 L1.612,14.001 C0.723,14.001 -0.000,13.289 -0.000,12.413 L-0.000,1.586 C-0.000,0.711 0.723,-0.001 1.612,-0.001 L18.388,-0.001 C19.277,-0.001 20.000,0.711 20.000,1.586 L20.000,12.413 C20.000,13.289 19.277,14.001 18.388,14.001 ZM0.645,12.413 C0.645,12.939 1.079,13.366 1.612,13.366 L18.388,13.366 C18.921,13.366 19.355,12.939 19.355,12.413 L19.355,1.586 C19.355,1.457 19.328,1.335 19.280,1.222 L12.722,6.854 L16.414,10.265 C16.544,10.384 16.551,10.586 16.429,10.713 C16.365,10.780 16.280,10.814 16.193,10.814 C16.114,10.814 16.035,10.785 15.973,10.727 L12.262,7.299 C12.251,7.289 12.254,7.274 12.245,7.263 L11.184,8.174 C10.857,8.455 10.429,8.595 10.000,8.595 C9.571,8.595 9.142,8.455 8.816,8.175 L7.755,7.264 C7.746,7.274 7.749,7.289 7.739,7.299 L4.027,10.727 C3.965,10.785 3.885,10.814 3.806,10.814 C3.720,10.814 3.635,10.780 3.571,10.713 C3.449,10.586 3.455,10.384 3.585,10.265 L7.278,6.854 L0.720,1.220 C0.672,1.333 0.645,1.457 0.645,1.586 L0.645,12.413 ZM1.612,0.634 C1.447,0.634 1.299,0.686 1.163,0.758 L9.240,7.696 C9.652,8.050 10.348,8.050 10.760,7.696 L18.839,0.758 C18.702,0.686 18.554,0.634 18.388,0.634 L1.612,0.634 Z'/%3e%3c/svg%3e");
                 }
-            }  
+            }
+            
 
         }
         
@@ -62,6 +64,7 @@ body{
             flex-direction: row;
             list-style-type: none;
             justify-content: flex-end;
+            
             justify-content: center;
             align-items: center;
 
@@ -117,7 +120,8 @@ body{
                     display: flex;
                     flex-direction: row;
                     list-style-type: none;
-                    justify-content: center; 
+                    justify-content: center;
+                   
 
                     li{
                         padding: 10px;
@@ -209,5 +213,530 @@ body{
                 }
             }
         }
+        &Secondary{
+            
+            background-color: #222222;
+            display: flex;
+            flex-direction: column;
+            height: 30vh;
+            padding: 10px;
+            
+    
+            &Title{
+                color: #ff6600;
+                display: flex;
+                font-family: sans-serif;
+                flex-direction: row;
+                padding-top: 30px;
+                font-weight: bold;
+                padding-left: 13%;
+                
+
+                &::before{
+                    content: '';
+                    height: 18px;
+                    width: 6px;
+                    background-color: #ff6600;
+                    margin-right: 5px;
+                    
+                }
+            }
+
+            &Schedule{
+                margin-top: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-left: 8%;
+                margin-right: 10%;
+
+                &Event{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-left: 6px;
+
+                    &Details{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        
+
+                        &Time{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            color: #ffffff;
+                            
+                            &At{
+                                margin: 0;
+
+                            }
+                            &Convention{
+                                padding-left: 8px;
+                                padding-top: 5px;
+                            }   
+                        }
+                        &Venue{
+                            color: #ffffff;
+                            margin: 8px auto;
+                            
+                        }
+                        &Book{
+                            color: #ffffff;
+                            background-color: #ff6600;
+                            border-radius: 100px;
+                            border: none;
+                            cursor: pointer;
+                            font-weight: bold;
+                            padding: 5px 16px 5px 16px;
+                            width: fit-content;
+                        }
+                        &Sold{
+                            color: #ff6600;
+                            background-color: #222222;
+                            border: 1px solid #ff6600;
+                            padding: 5px;
+                            cursor: pointer;
+                            border-radius: 100px;
+                            font-weight: bold;
+                            padding: 5px 16px 5px 16px;
+                            width: fit-content;
+                            
+                        }
+                    }
+                    &Arrow{
+                        color: #ffffff;
+                        opacity: .10;
+                        margin: 10% 25px auto 25px;
+                        font-size: 18px;
+                    }
+                }
+
+            }
+        }
+    }
+    .event{
+
+        &Upcoming{
+         
+            justify-content: center;
+            align-content: center;
+            // margin-left: 6%;
+            
+
+            &Content{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+                grid-gap: 100px;
+
+                &Details{
+                    justify-content: center;
+                    align-content: center;
+                    display: flex;
+                    flex-direction: column;
+
+                    &Title{
+                        display: flex;
+                        flex-direction: row;
+                        text-transform: uppercase;
+                        color: #373737;
+                        font-family: sans-serif;
+                        padding-top: 20px;
+                        padding-left: 100px;
+                        
+
+                        &::before{
+                            background-color: #ff6600 ;
+                            content: '';
+                            width: 6px;
+                            height: 18px;
+                            margin-right: 5px;
+                        }
+
+                    }
+                    &Para{
+                        margin-left: 100px;
+                        color: #6f6f6f;
+                        justify-content: center;
+                    }
+                   
+                }
+                &Action{
+                    
+                    width: fit-content;
+                    height: 30px;
+                    text-transform: uppercase;
+                    border-radius: 100px;
+                    border: 1px solid #ff6600;
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    cursor: pointer;
+                    margin-top: 100px;
+                    
+                }
+               
+            }
+            &AllEvents{
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 20px;
+                justify-content: center;
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+           
+                &Card{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    background: linear-gradient(to right , #6f6f6f,#242323, #6f6f6f);
+                    background: linear-gradient(to top, #2e2d2d , #6f6f6f );
+                    height: 35vh;
+                    position: relative;
+
+                    &:hover {
+                        background: linear-gradient(to right , #222222,#2b2b2b, #292929);
+                    }
+
+                    &Image{
+                        
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border: 1px solid #373737;
+
+                    }
+                    &Calender{
+                         
+                        background-color: #242424;
+                        color: #ffffff;
+                        padding: 8px 12px 8px 12px;
+                        height: fit-content;    
+                        margin-left: 10px;
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        overflow: visible;
+
+                        position: absolute;
+                        left: 0;
+                        
+                       
+                        &Date{
+                            margin: 0;
+                           
+                        }
+                        &Month{
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        &Year{
+                            margin: 0;
+                        }
+                    }
+                    
+                    &Content{
+                        display: grid;
+                        grid-template-columns: 2fr 1fr;
+                        // margin-top: 80px;
+                        // margin-left: -80px;
+                        position: absolute;
+                        bottom: 16px;
+                        left: 16px;
+                        width: 100%;
+                        justify-content: center;
+
+                        &Details{
+                            display: flex;
+                            flex-direction: column;
+                            // margin-top: 30px;
+
+                            &Title{
+                                color: #ffffff;
+                               
+                                
+                            }
+                            &Para{
+                                color: #ffffff;
+                                margin: 0;
+                            }
+                        }
+                        &Action{
+                            color: #ffffff;
+                            background-color: #ff6600;
+                            border-radius: 100px;
+                            text-transform: uppercase;
+                            cursor: pointer;
+                            padding: 8px 16px;
+                            border: none;
+                            width: fit-content;
+                            height: fit-content;
+                            font-weight: bold;
+                            // margin-top: 60px;
+                            margin-left: 10px;
+                            align-self: center;
+
+                        }
+                    }
+                }
+            }
+        }
+        &Categories{
+            // display: grid;
+            // grid-template-columns: repeat(3,1fr);
+            // justify-content: space-around;
+            justify-content: center;
+            margin-top: 20px;
+            
+
+            &Content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+
+                &Details{
+                    display: flex;
+                    flex-direction: row;
+                 
+
+                    &Title{
+                        
+                        text-transform: uppercase;
+                        font-family: sans-serif;
+                        display: flex;
+                        flex-direction: row;
+                        color: #373737;
+                        margin-left: 13%;
+
+                        &::before{
+                            background-color: #ff6600;
+                            width: 6px;
+                            height: 18px;
+                            content: '';
+                            margin-right: 5px;
+                        }
+                    }
+                    &List{
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                        grid-gap: 20px;
+                        padding-left: 15%;
+                        padding-right: 15%;
+                        align-items: center;
+                        
+                        
+                        
+                        &Concert{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #2ecc71 , #1bbc9b );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px ;
+                            padding-bottom: 60px;
+                    
+                        }
+                        &Sports{
+                            background:#6f6f6f;
+                            background: linear-gradient(to right, #c0392b , #d24d57 );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
+                            
+  
+                        }
+                        &Theater{
+                            background: #6f6f6f;
+                            background:  linear-gradient(to right, #663399 , #9b59b6 );
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
+                            
+                        }
+                        &Parties{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #d35400 , #f89406); 
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
+                           
+                        }
+                        &Communities{
+                            background:#6f6f6f ;
+                            background: linear-gradient(to right, #446cb3 , #59abe3);
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
+                            
+                        }
+                        &Classes{
+                            background: #6f6f6f;
+                            background: linear-gradient(to right, #db0a5b, #d2527f ) ;
+                            color: #ffffff;
+                            text-align: center;
+                            padding-top: 60px;
+                            padding-bottom: 60px;
+                            
+                        }
+                    }
+                }   
+            }
+        }
+    }    
+    .number{
+
+        background-color: #242424;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        &Card{
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            &Line{
+                background-color: #ffffff;
+                content: '';
+                width: 25px;
+                height: 2px;
+                
+            }
+            &Title{
+                text-transform: uppercase;
+            
+            }
+        }
+    }
+    .content{
+
+        &Recent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &Content{
+                
+                &Title{
+                    text-transform: uppercase;
+                    color:  #373737;
+                    padding-left: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    font-family: sans-serif;
+                    
+                    padding-top: 20px;
+                    margin-left: 10%;
+
+                    &::before{
+                        background-color: #ff6600;
+                        content: '';
+                        width: 6px;
+                        height: 22px;
+                        margin-right: 5px;
+                    }
+                }
+            }
+            &All{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+
+                &Videos{
+                    display: flex;
+                    flex-direction: column;
+                    
+
+                    &Card{
+                        display: flex;
+                        flex-direction: column;
+                        position: relative;
+
+                        &Description{
+                            display: flex;
+                            flex-direction: column;
+
+                            &Para{
+                                color:#242424;
+
+                            }
+                            &Line{
+                                background-color: #ff6600;
+                                width: 28px;
+                                height: 2px;
+                                content: '';
+                            }
+                        }
+                        &Thumb{
+                            background-color: #6f6f6f;
+                            content: '';
+                            width: 100px;
+                            height: 100px;
+                        
+                        }
+                        &Time{
+                            position: relative  ;
+                            
+                        }
+                    }
+                }    
+            }
+        }
+        &CallToAction{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            background: linear-gradient(to right,#ec6003, #f89b18);
+            justify-content: center;
+            align-items: center;
+            margin-left: 18%;
+            margin-right: 18%;
+            margin-top: 50px;
+            padding: 10px;
+            
+            &Details{
+                color: #ffffff;
+                align-items: center;
+                align-content: center;
+                margin-left: 30px;
+
+                &Title{
+                    
+                }
+                &Para{
+                    
+                }
+            }
+
+            &Action{
+                background-color: #ffffff;
+                color: #ff6600 ;
+                font-weight: bold;
+                border-radius: 3px;
+                border: none;
+                padding: 10px;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-left: 40%;
+                text-transform: uppercase;
+                cursor: pointer;
+                width: fit-content;
+            }
+
+        }
+        
     }
 }
