@@ -294,6 +294,33 @@ function App() {
             </div>
             <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
           </div>
+
+          <div className='latestNewsContentCardCalender'>
+            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+            <p className='latestNewsContentCardCalenderMonth'>august</p>
+            <p className='latestNewsContentCardCalenderYear'>2016</p>
+          </div>
+          <div className='latestNewsContentDescription'>
+            <h1 className='latestNewsContentDescriptionTitle'>How to Join The Biggest Event Total Transverse Half Marathon</h1>
+            <div className='latestNewsContentDescriptionContent'>
+              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+            </div>
+            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+          </div>
+
+          <div className='latestNewsContentCardCalender'>
+            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+            <p className='latestNewsContentCardCalenderMonth'>august</p>
+            <p className='latestNewsContentCardCalenderYear'>2016</p>
+          </div>
+          <div className='latestNewsContentDescription'>
+            <h1 className='latestNewsContentDescriptionTitle'>Ramayana Ballet at Prambanan Temple Klaten, Central of Java</h1>
+            <div className='latestNewsContentDescriptionContent'>
+              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+            </div>
+            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+          </div>
+
           <div className='latestNewsNumbers'>
             <li className='latestNewsNumbersOne'>1</li>
             <li>2</li>
@@ -306,7 +333,7 @@ function App() {
         <div className='latestTweets'>
           <div className='latestTweetsContent'>
             <div className='latestTweetsContentDetails'>
-              <h2 className='latestTweetsContentDetailsTitle'>latest tweets</h2>
+              <h2 className='latestTweetsContentDetails Title'>latest tweets</h2>
             </div>
             <div className='latestTweetsContentAction'>
               <img className='latestTweetsContentActionLogo'/>
@@ -318,6 +345,26 @@ function App() {
             </div>
             <div className='latestTweetsContentDescription'>
               <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionTime'>17 min</p>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionTime'>18 min</p>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionTime'>19 min</p>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionTime'>20 min</p>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh.</p>
+              <p className='latestTweetsContentDescriptionTime'>18 min</p>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
               <p className='latestTweetsContentDescriptionTime'>17 min</p>
             </div>
           </div> 
