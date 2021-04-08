@@ -583,7 +583,7 @@ body{
                         background-color: #ff6600;
                         content: '';
                         width: 6px;
-                        height: 22px;
+                        height: 18px;
                         margin-right: 5px;
                     }
                 }
@@ -702,7 +702,7 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
-        margin-left: 10%;
+        margin-left: 8%;
         gap: 3em;
 
         &News{
@@ -722,7 +722,7 @@ body{
                     content: '';
                     background-repeat: no-repeat;
                     background-position: center;
-                    height: 22px;
+                    height: 18px;
                     width: 6px;
                     margin-right: 5px;
                 }
@@ -736,17 +736,18 @@ body{
                 &Card{
                     background-color: #242424;
                     height:140px;
-                    width: 100%;
+                    width: 130%;
                     position: relative;
 
                     &Calender{
-                        padding: 5px 10px 10px 10px;
+                        padding: 5px 4px 9px 4px;
                         background-color: #ff6600;
                         width: fit-content;
                         position: absolute;
                         left: 0;
                         margin-left: 10px;
                         text-align: center;
+                        color: #ffffff;
 
                         &Date{
                             margin: 0;
@@ -841,6 +842,88 @@ body{
                 }
                 
             }    
+        }
+        &Tweets{
+            display: flex;
+            flex-direction: column;
+            margin-right: 13%;
+
+            &Content{
+
+                &Title{
+                    display: flex;
+                    flex-direction: row;
+                    color:#373737;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    font-family: sans-serif;
+
+                    &::before{
+                        background-color: #ff6600;
+                        content: '';
+                        width: 6px;
+                        height: 18px;
+                        margin-right: 5px;
+                    }
+                }
+                &Action{
+                    display: flex;
+                    flex-direction: row;
+                    padding: 5px;
+                    background-color: #f8f8f8;
+                    margin-right: 100px;
+
+                    &Logo{
+                        background-color: #ff6600;
+                        margin-left: 15px;
+                        padding: 12px 15px 12px 15px;
+                        color: #ffffff;
+                        border-radius: 8px;
+                        
+                    }
+                    &Body{
+                        margin-left: 18px;
+                        align-self: center;
+
+                        &Title{
+                            color: #4e4e4e;
+                            margin-bottom: 1px;
+                        }
+                        &Para{
+                            margin-top: 0px;
+                            color: #6f6f6f;
+                        }
+                    }
+                    &Action{
+                        margin-left:90px;
+                        align-self: center;
+                        color: #ffffff;
+                        background-color: #41c3ff;
+                        border-radius: 3px;
+                        border: none;
+                        padding: 5px 18px 5px 18px;
+                    }
+                }
+                &Description{
+                    display: flex;
+                    flex-direction: row;
+                    margin-right: 80px;
+                    border-bottom: 1px solid #eaeaea;
+
+                    &Para{
+                        color: #6f6f6f;
+                        margin-left: 10px;
+                    }
+                    &Time{
+                        color: #b3b3b3;
+                        margin-left: 30px;
+                    }
+                    span{
+                        color: #ff6600;
+                        font-weight: bold;
+                    }
+                }
+            }
         }
     }
 }

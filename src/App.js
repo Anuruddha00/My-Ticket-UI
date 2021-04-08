@@ -204,7 +204,7 @@ function App() {
       <section className='content'>
         <div className='contentRecent'>
           <div className='contentRecentContent'>
-            <h2 className='contentRecentContentTitle'>recent videos</h2>
+            <h3 className='contentRecentContentTitle'>recent videos</h3>
           </div>
         <div className='contentRecentAll'>  
         <div className='contentRecentAllVideos'>
@@ -276,7 +276,7 @@ function App() {
 
       <section className='latest'>
         <div className='latestNews'>
-          <h2 className='latestNewsTitle'>latest news</h2>
+          <h3 className='latestNewsTitle'>latest news</h3>
           <div className='latestNewsContent'>
             <div className='latestNewsContentCard'>
               <div className='latestNewsContentCardCalender'>
@@ -342,11 +342,9 @@ function App() {
 
         <div className='latestTweets'>
           <div className='latestTweetsContent'>
-            <div className='latestTweetsContentDetails'>
-              <h2 className='latestTweetsContentDetails Title'>latest tweets</h2>
-            </div>
+            <h3 className='latestTweetsContentTitle'>latest tweets</h3>
             <div className='latestTweetsContentAction'>
-              <img className='latestTweetsContentActionLogo'/>
+              <h1 className='latestTweetsContentActionLogo'>m</h1>
               <div className='latestTweetsContentActionBody'>
                 <h3 className='latestTweetsContentActionBodyTitle'>myticket.com</h3>
                 <p className='latestTweetsContentActionBodyPara'>@myticket</p>
@@ -354,27 +352,27 @@ function App() {
               <button className='latestTweetsContentActionAction'>Follow</button>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
               <p className='latestTweetsContentDescriptionTime'>17 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
               <p className='latestTweetsContentDescriptionTime'>18 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>19 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span>Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>20 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh.</p>
               <p className='latestTweetsContentDescriptionTime'>18 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>17 min</p>
             </div>
           </div> 
