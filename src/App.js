@@ -279,21 +279,20 @@ function App() {
           <div className='latestNewsDetails'>
             <h2 className='latestNewsDetailsTitle'>latest news</h2>
           </div>
-          <div className='latestNewsCard'>
-            <img className='latestNewsCardImage'/>
-            <div className='latestNewsCardImageCalender'>
-              <h1 className='latestNewsCardImageCalenderDate'>26</h1>
-              <p className='latestNewsCardImageCalenderMonth'>august</p>
-              <p className='latestNewsCardImageCalenderYear'>2016</p>
+          <div className='latestNewsContent'>
+            <img className='latestNewsContentCard'/>
+            <div className='latestNewsContentCardCalender'>
+              <h1 className='latestNewsContentCardCalenderDate'>26</h1>
+              <p className='latestNewsContentCardCalenderMonth'>august</p>
+              <p className='latestNewsContentCardCalenderYear'>2016</p>
             </div>
           </div>
-          <div className='latestNewsDescription'>
-            <h1 className='latestNewsDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
-            <div className='latestNewsDescriptionContent'>
-              <p className='latestNewsDescriptionContentTime'>6 hours ago</p>
-              <p className='latestNewsDescriptionContentFrom'>By Admin</p>
+          <div className='latestNewsContentDescription'>
+            <h1 className='latestNewsContentDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
+            <div className='latestNewsContentDescriptionContent'>
+              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
             </div>
-            <p className='latestNewsDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
           </div>
           <div className='latestNewsNumbers'>
             <li className='latestNewsNumbersOne'>1</li>
@@ -303,25 +302,26 @@ function App() {
             <li>5</li>
           </div>
         </div>
-        <section className='latestTweets'>
+
+        <div className='latestTweets'>
           <div className='latestTweetsContent'>
-          <div className='latestTweetsContentDetails'>
-            <h2 className='latestTweetsContentDetailsTitle'>latest tweets</h2>
-          </div>
-          <div className='latestTweetsContentAction'>
-            <button className='latestTweetsContentActionLogo'>m</button>
-            <div className='latestTweetsContentActionBody'>
-              <h3 className='latestTweetsContentActionBodyUrl'>myticket.com</h3>
-              <p className='latestTweetsContentActionBodyPara'>@myticket</p>
+            <div className='latestTweetsContentDetails'>
+              <h2 className='latestTweetsContentDetailsTitle'>latest tweets</h2>
             </div>
-            <button className='latestTweetsContentActionFollow'>Follow</button>
-          </div>
-          <div className='latestTweetsContentDescription'>
-            <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
-            <p className='latestTweetsContentDescriptionTime'>17 min</p>
-          </div>
+            <div className='latestTweetsContentAction'>
+              <img className='latestTweetsContentActionLogo'/>
+              <div className='latestTweetsContentActionBody'>
+                <h3 className='latestTweetsContentActionBodyTitle'>myticket.com</h3>
+                <p className='latestTweetsContentActionBodyPara'>@myticket</p>
+              </div>
+              <button className='latestTweetsContentActionAction'>Follow</button>
+            </div>
+            <div className='latestTweetsContentDescription'>
+              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionTime'>17 min</p>
+            </div>
           </div> 
-        </section>
+        </div>
       </section> 
    </div>
   );

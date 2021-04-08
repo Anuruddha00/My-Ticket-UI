@@ -15,11 +15,12 @@ body{
         &Contact{
             display: flex;
             flex-direction: row;
-            color: #ffffff;
+            color: #b3b3b3;
             list-style-type: none;
             font-size: 0.875rem;
             align-items: center;
             justify-content: center;
+            font-weight: 400;
 
             &Number{
                 margin-left: 16px;
@@ -119,6 +120,7 @@ body{
                         margin-left: 16px;
                         color: #ffffff;
                         cursor: pointer;
+                        font-weight: 400;
 
                         &:last-child{
                             color: #ffa824;
@@ -140,9 +142,11 @@ body{
                 &Title{
                     font-size: 36px;
                     margin: 0;
+                    font-weight: 400;
                 }
                 &Description{
                     font-size: 26px;
+                    font-weight: 300;
                 }
                 &Input{
                     display: flex;
@@ -481,14 +485,15 @@ body{
                         padding-left: 15%;
                         padding-right: 15%;
                         align-items: center;
-                          
+                        text-transform: uppercase;
+
                         &Concert{
                             background: linear-gradient(to right, #2ecc71 , #1bbc9b );
                             color: #ffffff;
                             text-align: center;
                             padding-top: 60px ;
                             padding-bottom: 60px;
-                    
+                           
                         }
                         &Sports{
                             background: linear-gradient(to right, #c0392b , #d24d57 );
@@ -641,6 +646,7 @@ body{
 
                             &Para{
                                 color:#242424;
+                                margin-top:0px;
                             }
                             &Line{
                                 background-color: #ff6600;
@@ -671,7 +677,7 @@ body{
                 margin-left: 30px;
 
                 &Title{
-                    
+                   
                 }
                 &Para{
                     
