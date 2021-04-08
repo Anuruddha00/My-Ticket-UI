@@ -578,12 +578,12 @@ body{
                 &Title{
                     text-transform: uppercase;
                     color:  #373737;
-                    padding-left: 50px;
+                    padding-left: 13%;
                     display: flex;
                     flex-direction: row;
                     font-family: sans-serif;
                     padding-top: 20px;
-                    margin-left: 10%;
+                    
 
                     &::before{
                         background-color: #ff6600;
@@ -595,28 +595,59 @@ body{
                 }
             }
             &All{
-                display: flex;
-                flex-direction: row;
+                display: grid;
+                grid-template-columns:repeat(auto-fit, minmax(15%, 1fr));
                 justify-content: center;
                 align-items: center;
                 gap: 1em;
+                margin-left: 13%;
+                margin-right: 13%;
+                
 
                 &Videos{
                     display: flex;
                     flex-direction: column;
-                
+              
                     &Card{
                         display: flex;
                         flex-direction: column;
-                        position: relative;
-
+                        
+                        &Thumb{
+                            background-color: #6f6f6f;
+                            content: '';
+                            position: relative;
+                            height: 150px;
+                        }
+                        &Player{
+                            position: relative;
+                            background-color: #242424;
+                            content: '';
+                            height: 35px;
+                            top: -30px;
+                      
+                            &Thumb{
+                                position:absolute;
+                                left: 10px;
+                                top: 10px;
+                                width: 0;
+                                height: 0;
+                                border-top: 5px solid transparent;
+                                border-left: 10px solid #d7d7d7;
+                                border-bottom: 5px solid transparent;
+                            }
+                            &Time{
+                                position: absolute;
+                                color: #ffffff;
+                                right: 20px;
+                                top: 10px;
+                            }
+                        }
                         &Description{
                             display: flex;
                             flex-direction: column;
 
                             &Para{
                                 color:#242424;
-
                             }
                             &Line{
                                 background-color: #ff6600;
@@ -624,18 +655,7 @@ body{
                                 height: 2px;
                                 content: '';
                             }
-                        }
-                        &Thumb{
-                            background-color: #6f6f6f;
-                            content: '';
-                            width: 100px;
-                            height: 100px;
-                        
-                        }
-                        &Time{
-                            position: relative  ;
-                            
-                        }
+                        }  
                     }
                 }    
             }
