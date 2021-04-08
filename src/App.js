@@ -204,7 +204,7 @@ function App() {
       <section className='content'>
         <div className='contentRecent'>
           <div className='contentRecentContent'>
-            <h2 className='contentRecentContentTitle'>recent videos</h2>
+            <h3 className='contentRecentContentTitle'>recent videos</h3>
           </div>
         <div className='contentRecentAll'>  
         <div className='contentRecentAllVideos'>
@@ -267,8 +267,8 @@ function App() {
       </div>
       <div className='contentCallToAction'>
         <div className='contentCallToActionDetails'>
-          <h2 className='contentCallToActionDetailsTitle'>Share experience with your friends</h2>
-          <p className='contentCallToActionDetailsPara'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+          <h2>Share experience with your friends</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
         </div>
         <button className='contentCallToActionAction'>Learn More</button>
       </div>
@@ -276,67 +276,75 @@ function App() {
 
       <section className='latest'>
         <div className='latestNews'>
-          <div className='latestNewsDetails'>
-            <h2 className='latestNewsDetailsTitle'>latest news</h2>
-          </div>
+          <h3 className='latestNewsTitle'>latest news</h3>
           <div className='latestNewsContent'>
-            <img className='latestNewsContentCard'/>
-            <div className='latestNewsContentCardCalender'>
-              <h1 className='latestNewsContentCardCalenderDate'>26</h1>
-              <p className='latestNewsContentCardCalenderMonth'>august</p>
-              <p className='latestNewsContentCardCalenderYear'>2016</p>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>26</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
           </div>
 
-          <div className='latestNewsContentCardCalender'>
-            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
-            <p className='latestNewsContentCardCalenderMonth'>august</p>
-            <p className='latestNewsContentCardCalenderYear'>2016</p>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>How to Join The Biggest Event Total Transverse Half Marathon</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+          <div className='latestNewsContent'>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
-          </div>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>How to Join The Biggest Event Total Transverse Half Marathon</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            </div>
+          </div>  
 
-          <div className='latestNewsContentCardCalender'>
-            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
-            <p className='latestNewsContentCardCalenderMonth'>august</p>
-            <p className='latestNewsContentCardCalenderYear'>2016</p>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>Ramayana Ballet at Prambanan Temple Klaten, Central of Java</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+          <div className='latestNewsContent'>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>Ramayana Ballet at Prambanan Temple Klaten, Central of Java</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            </div>
           </div>
 
           <div className='latestNewsNumbers'>
             <li className='latestNewsNumbersOne'>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li className='latestNewsNumbersTwo'>2</li>
+            <li className='latestNewsNumbersThree'>3</li>
+            <li className='latestNewsNumbersFour'>4</li>
+            <li className='latestNewsNumbersFive'>5</li>
           </div>
         </div>
 
         <div className='latestTweets'>
           <div className='latestTweetsContent'>
-            <div className='latestTweetsContentDetails'>
-              <h2 className='latestTweetsContentDetails Title'>latest tweets</h2>
-            </div>
+            <h3 className='latestTweetsContentTitle'>latest tweets</h3>
             <div className='latestTweetsContentAction'>
-              <img className='latestTweetsContentActionLogo'/>
+              <h1 className='latestTweetsContentActionLogo'>m</h1>
               <div className='latestTweetsContentActionBody'>
                 <h3 className='latestTweetsContentActionBodyTitle'>myticket.com</h3>
                 <p className='latestTweetsContentActionBodyPara'>@myticket</p>
@@ -344,32 +352,98 @@ function App() {
               <button className='latestTweetsContentActionAction'>Follow</button>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
               <p className='latestTweetsContentDescriptionTime'>17 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
               <p className='latestTweetsContentDescriptionTime'>18 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh euismod dolore magna aliquam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>19 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span>Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>20 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam nonummy nibh.</p>
               <p className='latestTweetsContentDescriptionTime'>18 min</p>
             </div>
             <div className='latestTweetsContentDescription'>
-              <p className='latestTweetsContentDescriptionPara'>@myticket Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam #EratVolutpat.</p>
+              <p className='latestTweetsContentDescriptionPara'><span>@myticket</span> Lorem ipsum dolor sit amet, consecter adipiscing elit, sed diam <span>#EratVolutpat</span>.</p>
               <p className='latestTweetsContentDescriptionTime'>17 min</p>
             </div>
           </div> 
         </div>
       </section> 
+
+      <section className='footer'>
+        <div className='footerLive'>
+          <h1 className='footerLiveTitle'>live there</h1>
+          <p className='footerLivePara'>Book events from anywhere in 191+ countries and get awesome experience Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+          <img className='footerLiveImage' src='Play.png'/>
+        </div>
+        <div className='footerCategories'>
+          <img src='themeforest.png'/>
+          <img src='graphicriver.png'/>
+          <img src='audiojungle.png'/>
+          <img src='codecanyon.png'/>
+        </div>
+
+        <div className='footerEvents'>
+            <h1 className='footerEventsTitle'>Stay Up to date With Your Favorite Events!</h1>
+            <p className='footerEventsPara'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <form className='footerEventsInput'>
+            <p className='footerEventsInputText'>Your Email Address</p>
+            <button className='footerEventsInputButton'>subscribe</button>
+          </form>
+        </div>    
+
+        <div className='footerContent'>
+          <nav className='footerContentNavbar'>
+            <img className='footerContentNavbarLogo' src='logo.png'/>
+            <p className='footerContentNavbarPara'>©2016 MYTICKET.COM. ALL RIGHTS RESEVED</p>
+          </nav>
+          <div className='footerContentAll'>
+            <div className='footerContentAllDetails'>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>about</h3>
+                <p>Our Company</p>
+                <p>Careers</p>
+                <p>Advertising</p>
+                <p>Press Room</p>
+                <p>Trademarks</p>
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+              </div>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>support and contact</h3>
+                <p>Customer Support Contacts</p>
+                <p>Feedback</p>
+                <p>Help</p>
+                <p>Sitemap</p>
+              </div>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>stay connected</h3>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Linkedin</p>
+                <p>Google+</p>
+                <p>RSS</p>
+              </div>
+            </div>
+            <div className='footerContentAllDashboard'>
+              <div className='footerContentAllDashboardDetails'>
+                <h3 className='footerContentAllDashboardDetailsTitle'>MY TICKET DASHBOARD</h3>
+                <p>Professional</p>
+                <p>Subscriber Login</p>
+              </div>            
+            </div>
+          </div>
+        </div>
+      </section>
    </div>
   );
 }
