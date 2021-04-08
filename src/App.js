@@ -276,57 +276,67 @@ function App() {
 
       <section className='latest'>
         <div className='latestNews'>
-          <div className='latestNewsDetails'>
-            <h2 className='latestNewsDetailsTitle'>latest news</h2>
-          </div>
+          <h2 className='latestNewsTitle'>latest news</h2>
           <div className='latestNewsContent'>
-            <img className='latestNewsContentCard'/>
-            <div className='latestNewsContentCardCalender'>
-              <h1 className='latestNewsContentCardCalenderDate'>26</h1>
-              <p className='latestNewsContentCardCalenderMonth'>august</p>
-              <p className='latestNewsContentCardCalenderYear'>2016</p>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>26</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>Attending the Indonesian Envato Authors National Meetup</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
           </div>
 
-          <div className='latestNewsContentCardCalender'>
-            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
-            <p className='latestNewsContentCardCalenderMonth'>august</p>
-            <p className='latestNewsContentCardCalenderYear'>2016</p>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>How to Join The Biggest Event Total Transverse Half Marathon</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+          <div className='latestNewsContent'>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
-          </div>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>How to Join The Biggest Event Total Transverse Half Marathon</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            </div>
+          </div>  
 
-          <div className='latestNewsContentCardCalender'>
-            <h1 className='latestNewsContentCardCalenderDate'>25</h1>
-            <p className='latestNewsContentCardCalenderMonth'>august</p>
-            <p className='latestNewsContentCardCalenderYear'>2016</p>
-          </div>
-          <div className='latestNewsContentDescription'>
-            <h1 className='latestNewsContentDescriptionTitle'>Ramayana Ballet at Prambanan Temple Klaten, Central of Java</h1>
-            <div className='latestNewsContentDescriptionContent'>
-              <p className='latestNewsContentDescriptionContentTime'>6 hours ago | By <span>Admin</span></p>
+          <div className='latestNewsContent'>
+            <div className='latestNewsContentCard'>
+              <div className='latestNewsContentCardCalender'>
+                <h1 className='latestNewsContentCardCalenderDate'>25</h1>
+                <p className='latestNewsContentCardCalenderMonth'>august</p>
+                <p className='latestNewsContentCardCalenderYear'>2016</p>
+              </div>
             </div>
-            <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            <div className='latestNewsContentDescription'>
+              <h1 className='latestNewsContentDescriptionTitle'>Ramayana Ballet at Prambanan Temple Klaten, Central of Java</h1>
+              <div className='latestNewsContentDescriptionContent'>
+                <p className='latestNewsContentDescriptionContentTime'>6 hours ago </p>
+                <p className='latestNewsContentDescriptionContentFrom'> By <span>Admin</span></p>
+              </div>
+              <p className='latestNewsContentDescriptionPara'>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesenlup.</p>
+            </div>
           </div>
 
           <div className='latestNewsNumbers'>
             <li className='latestNewsNumbersOne'>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-            <li>5</li>
+            <li className='latestNewsNumbersTwo'>2</li>
+            <li className='latestNewsNumbersThree'>3</li>
+            <li className='latestNewsNumbersFour'>4</li>
+            <li className='latestNewsNumbersFive'>5</li>
           </div>
         </div>
 

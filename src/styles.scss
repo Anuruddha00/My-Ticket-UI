@@ -459,9 +459,6 @@ body{
                 justify-content: center;
             
                 &Details{
-                    display: flex;
-                    flex-direction: row;
-                 
                     &Title{  
                         text-transform: uppercase;
                         font-family: sans-serif;
@@ -572,7 +569,8 @@ body{
             justify-content: center;
 
             &Content{
-                
+                padding-top: 20px;
+
                 &Title{
                     text-transform: uppercase;
                     color:  #373737;
@@ -580,9 +578,7 @@ body{
                     display: flex;
                     flex-direction: row;
                     font-family: sans-serif;
-                    padding-top: 20px;
                     
-
                     &::before{
                         background-color: #ff6600;
                         content: '';
@@ -703,9 +699,148 @@ body{
         
     }
     .latest{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+        margin-left: 10%;
+        gap: 3em;
 
         &News{
-            
+            display: flex;
+            flex-direction: column;
+
+            &Title{
+                display: flex;
+                flex-direction: row;
+                color: #373737; 
+                text-transform: uppercase;
+                font-family: sans-serif;
+                font-weight: bold;
+
+                &::before{
+                    background-color: #ff6600;
+                    content: '';
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    height: 22px;
+                    width: 6px;
+                    margin-right: 5px;
+                }
+            }
+            &Content{
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+                margin-top: 8px;
+
+                &Card{
+                    background-color: #242424;
+                    height:140px;
+                    width: 100%;
+                    position: relative;
+
+                    &Calender{
+                        padding: 5px 10px 10px 10px;
+                        background-color: #ff6600;
+                        width: fit-content;
+                        position: absolute;
+                        left: 0;
+                        margin-left: 10px;
+                        text-align: center;
+
+                        &Date{
+                            margin: 0;
+                        }
+                        &Month{
+                            margin: 0;
+                            text-transform: uppercase;
+                        }
+                        &Year{
+                            margin: 0;
+                        }
+                    }
+                }
+                &Description{
+                    margin-top: -25px;
+
+                    &Title{
+                        color: #373737;
+                    }
+                    &Content{
+                        display: flex;
+                        flex-direction: row;
+                        margin-top: -25px; 
+
+                        &Time{
+                            color: #6f6f6f;   
+                        }
+                        &From{
+                            display: flex;
+                            flex-direction: row;
+                            color: #6f6f6f;
+
+                            span{
+                                color: #ff6600;
+                                margin-left: 4px;
+                            }
+                            &::before{
+                                background-color: #6f6f6f;
+                                content: '';
+                                width: 2px;
+                                height: 16px;
+                                margin: 2px 10px auto 10px;
+                            }
+                        }
+                    }
+                    &Para{
+                        color: #6f6f6f;
+                        margin-top: -4px;
+                    }
+                }
+            } 
+            &Numbers{
+                list-style: none;
+                display: flex;
+                flex-direction: row;
+                gap: 1em;
+                
+                &One{
+                    background-color: #ff6600;
+                    padding: 2px 7px 2px 7px;
+                    border-radius: 3px;
+                    color: #ffffff;
+                    border: 1px solid #ff6600;
+                }
+                &Two{
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    border: 1px solid #ff6600;
+                    padding: 2px 6px 2px 6px;
+                    border-radius: 3px;
+                }
+                &Three{
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    border: 1px solid #ff6600;
+                    padding: 2px 6px 2px 6px;
+                    border-radius: 3px;
+                }
+                &Four{
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    border: 1px solid #ff6600;
+                    padding: 2px 6px 2px 6px;
+                    border-radius: 3px;
+                }
+                &Five{
+                    color: #ff6600;
+                    background-color: #ffffff;
+                    border: 1px solid #ff6600;
+                    padding: 2px 6px 2px 6px;
+                    border-radius: 3px;
+                }
+                
+            }    
         }
     }
 }
