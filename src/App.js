@@ -88,9 +88,7 @@ function App() {
                 <p className='landingSecondaryScheduleEventDetailsVenue'>UEFA Champions League: Barca vs Arsenal</p>
                 <button className='landingSecondaryScheduleEventDetailsSold'>SOLD OUT</button>
               </div>
-        
             </div>
-
           </div>
         </div>
       </section>
@@ -107,7 +105,6 @@ function App() {
 
           <div className='eventUpcomingAllEvents'>
             <div className='eventUpcomingAllEventsCard'>
-              {/* <img className='eventUpcomingAllEventsCardImage'  /> This is for background image */}
               <div className='eventUpcomingAllEventsCardCalender'>
                 <h1 className='eventUpcomingAllEventsCardCalenderDate'>25</h1>
                 <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
@@ -122,7 +119,6 @@ function App() {
               </div>
             </div>
             <div className='eventUpcomingAllEventsCard'>
-              {/* <img className='eventUpcomingAllEventsCardImage'/> */}
               <div className='eventUpcomingAllEventsCardCalender'>
                 <h1 className='eventUpcomingAllEventsCardCalenderDate'>26</h1>
                 <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
@@ -137,7 +133,6 @@ function App() {
               </div>
             </div>
             <div className='eventUpcomingAllEventsCard'>
-              {/* <img className='eventUpcomingAllEventsCardImage'/> */}
               <div className='eventUpcomingAllEventsCardCalender'>
                 <h1 className='eventUpcomingAllEventsCardCalenderDate'>27</h1>
                 <p className='eventUpcomingAllEventsCardCalenderMonth'>august</p>
@@ -221,7 +216,6 @@ function App() {
           </div>
         </div>
       
-
         <div className='contentRecentAllVideos'>
           <div className='contentRecentAllVideosCard'>
             <img className='contentRecentAllVideosCardThumb'/>
