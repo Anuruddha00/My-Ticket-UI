@@ -378,6 +378,68 @@ function App() {
           </div> 
         </div>
       </section> 
+
+      <section className='footer'>
+        <div className='footerLive'>
+          <h1 className='footerLiveTitle'>live there</h1>
+          <p className='footerLivePara'>Book events from anywhere in 191+ countries and get awesome experience Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+          <img className='footerLiveImage' src='Play.png'/>
+        </div>
+        <div className='footerCategories'>
+          <img src='themeforest.png'/>
+          <img src='graphicriver.png'/>
+          <img src='audiojungle.png'/>
+          <img src='codecanyon.png'/>
+        </div>
+
+        <div className='footerEvents'>
+            <h1 className='footerEventsTitle'>Stay Up to date With Your Favorite Events!</h1>
+            <p className='footerEventsPara'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          <form className='footerEventsInput'>
+            <p className='footerEventsInputText'>Your Email Address</p>
+            <button className='footerEventsInputButton'>subscribe</button>
+          </form>
+        </div>    
+
+        <div className='footerContent'>
+          <nav className='footerContentNavbar'>
+            <img className='footerContentNavbarLogo'/>
+            <p className='footerContentNavbarPara'>©2016 MYTICKET.COM. ALL RIGHTS RESEVED</p>
+          </nav>
+          <div className='footerContentDetails'>
+            <div className='footerContentDetailsInfo'>
+              <h3 className='footerContentDetailsInfoTitle'>about</h3>
+              <p>Our Company</p>
+              <p>Careers</p>
+              <p>Advertising</p>
+              <p>Press Room</p>
+              <p>Trademarks</p>
+              <p>Terms of Service</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div className='footerContentDetailsInfo'>
+              <h3 className='footerContentDetailsInfoTitle'>support and contact</h3>
+              <p>Customer Support Contacts</p>
+              <p>Feedback</p>
+              <p>Help</p>
+              <p>Sitemap</p>
+            </div>
+            <div className='footerContentDetailsInfo'>
+              <h3 className='footerContentDetailsInfoTitle'>stay connected</h3>
+              <p>Facebook</p>
+              <p>Twitter</p>
+              <p>Linkedin</p>
+              <p>Google+</p>
+              <p>RSS</p>
+            </div>
+            <div className='footerContentDetailsDashboard'>
+              <h3 className='footerContentDetailsDashboardTitle'>MYTICKET DASHBOARD</h3>
+              <p>Professional</p>
+              <p>Subscriber Login</p>
+            </div>
+          </div>
+        </div>
+      </section>
    </div>
   );
 }
