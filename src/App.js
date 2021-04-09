@@ -267,8 +267,8 @@ function App() {
       </div>
       <div className='contentCallToAction'>
         <div className='contentCallToActionDetails'>
-          <h2 className='contentCallToActionDetailsTitle'>Share experience with your friends</h2>
-          <p className='contentCallToActionDetailsPara'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
+          <h2>Share experience with your friends</h2>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.</p>
         </div>
         <button className='contentCallToActionAction'>Learn More</button>
       </div>
@@ -403,39 +403,43 @@ function App() {
 
         <div className='footerContent'>
           <nav className='footerContentNavbar'>
-            <img className='footerContentNavbarLogo'/>
+            <img className='footerContentNavbarLogo' src='logo.png'/>
             <p className='footerContentNavbarPara'>©2016 MYTICKET.COM. ALL RIGHTS RESEVED</p>
           </nav>
-          <div className='footerContentDetails'>
-            <div className='footerContentDetailsInfo'>
-              <h3 className='footerContentDetailsInfoTitle'>about</h3>
-              <p>Our Company</p>
-              <p>Careers</p>
-              <p>Advertising</p>
-              <p>Press Room</p>
-              <p>Trademarks</p>
-              <p>Terms of Service</p>
-              <p>Privacy Policy</p>
+          <div className='footerContentAll'>
+            <div className='footerContentAllDetails'>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>about</h3>
+                <p>Our Company</p>
+                <p>Careers</p>
+                <p>Advertising</p>
+                <p>Press Room</p>
+                <p>Trademarks</p>
+                <p>Terms of Service</p>
+                <p>Privacy Policy</p>
+              </div>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>support and contact</h3>
+                <p>Customer Support Contacts</p>
+                <p>Feedback</p>
+                <p>Help</p>
+                <p>Sitemap</p>
+              </div>
+              <div className='footerContentAllDetailsInfo'>
+                <h3 className='footerContentAllDetailsInfoTitle'>stay connected</h3>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>Linkedin</p>
+                <p>Google+</p>
+                <p>RSS</p>
+              </div>
             </div>
-            <div className='footerContentDetailsInfo'>
-              <h3 className='footerContentDetailsInfoTitle'>support and contact</h3>
-              <p>Customer Support Contacts</p>
-              <p>Feedback</p>
-              <p>Help</p>
-              <p>Sitemap</p>
-            </div>
-            <div className='footerContentDetailsInfo'>
-              <h3 className='footerContentDetailsInfoTitle'>stay connected</h3>
-              <p>Facebook</p>
-              <p>Twitter</p>
-              <p>Linkedin</p>
-              <p>Google+</p>
-              <p>RSS</p>
-            </div>
-            <div className='footerContentDetailsDashboard'>
-              <h3 className='footerContentDetailsDashboardTitle'>MYTICKET DASHBOARD</h3>
-              <p>Professional</p>
-              <p>Subscriber Login</p>
+            <div className='footerContentAllDashboard'>
+              <div className='footerContentAllDashboardDetails'>
+                <h3 className='footerContentAllDashboardDetailsTitle'>MY TICKET DASHBOARD</h3>
+                <p>Professional</p>
+                <p>Subscriber Login</p>
+              </div>            
             </div>
           </div>
         </div>
